@@ -38,7 +38,7 @@ namespace DiscordColor
 					GData.Color1 = Helpers.LightenColor(GData.Color1);
 				else if(button.Name == "LightenTwo" && Helpers.IsHex(GData.Color2))
 					GData.Color2 = Helpers.LightenColor(GData.Color2);
-				else if (button.Name == "LightenThree" && Helpers.IsHex(GData.Color2))
+				else if (button.Name == "LightenThree" && Helpers.IsHex(GData.Color3))
 					GData.Color3 = Helpers.LightenColor(GData.Color3);
 			}
 		}
@@ -51,7 +51,7 @@ namespace DiscordColor
 					GData.Color1 = Helpers.DarkenColor(GData.Color1);
 				else if (button.Name == "DarkenTwo" && Helpers.IsHex(GData.Color2))
 					GData.Color2 = Helpers.DarkenColor(GData.Color2);
-				else if (button.Name == "DarkenThree" && Helpers.IsHex(GData.Color2))
+				else if (button.Name == "DarkenThree" && Helpers.IsHex(GData.Color3))
 					GData.Color3 = Helpers.DarkenColor(GData.Color3);
 			}
 		}
@@ -64,7 +64,7 @@ namespace DiscordColor
 					GData.Color1 = Helpers.SaturateColor(GData.Color1);
 				else if (button.Name == "VibrateTwo" && Helpers.IsHex(GData.Color2))
 					GData.Color2 = Helpers.SaturateColor(GData.Color2);
-				else if (button.Name == "VibrateThree" && Helpers.IsHex(GData.Color2))
+				else if (button.Name == "VibrateThree" && Helpers.IsHex(GData.Color3))
 					GData.Color3 = Helpers.SaturateColor(GData.Color3);
 			}
 		}
@@ -77,8 +77,8 @@ namespace DiscordColor
 					GData.Color1 = Helpers.DullColor(GData.Color1);
 				else if (button.Name == "DullTwo" && Helpers.IsHex(GData.Color2))
 					GData.Color2 = Helpers.DullColor(GData.Color2);
-				else if (button.Name == "DullThree" && Helpers.IsHex(GData.Color2))
-					GData.Color3 = Helpers.SaturateColor(GData.Color3);
+				else if (button.Name == "DullThree" && Helpers.IsHex(GData.Color3))
+					GData.Color3 = Helpers.DullColor(GData.Color3);
 			}
 		}
 	}
